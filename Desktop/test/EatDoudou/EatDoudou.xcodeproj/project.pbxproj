@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2D2C7251D7411D300C0B509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D2C7241D7411D300C0B509 /* main.m */; };
+		F2D2C7281D7411D300C0B509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D2C7271D7411D300C0B509 /* AppDelegate.m */; };
+		F2D2C72B1D7411D300C0B509 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D2C72A1D7411D300C0B509 /* ViewController.m */; };
+		F2D2C72E1D7411D300C0B509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2C72C1D7411D300C0B509 /* Main.storyboard */; };
+		F2D2C7301D7411D300C0B509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D2C72F1D7411D300C0B509 /* Assets.xcassets */; };
+		F2D2C7331D7411D300C0B509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2C7311D7411D300C0B509 /* LaunchScreen.storyboard */; };
+		F2D2C73E1D7411D300C0B509 /* EatDoudouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D2C73D1D7411D300C0B509 /* EatDoudouTests.m */; };
+		F2D2C7491D7411D300C0B509 /* EatDoudouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D2C7481D7411D300C0B509 /* EatDoudouUITests.m */; };
+		F2D2C75A1D742BEB00C0B509 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D2C7561D742BEB00C0B509 /* up.png */; };
+		F2D2C75B1D742BEB00C0B509 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D2C7571D742BEB00C0B509 /* left.png */; };
+		F2D2C75C1D742BEB00C0B509 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D2C7581D742BEB00C0B509 /* down.png */; };
+		F2D2C75D1D742BEB00C0B509 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D2C7591D742BEB00C0B509 /* right.png */; };
+		F2DA04EA1D751D790013C4E9 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DA04E51D751D790013C4E9 /* 11.png */; };
+		F2DA04EB1D751D790013C4E9 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DA04E61D751D790013C4E9 /* 12.png */; };
+		F2DA04EC1D751D790013C4E9 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DA04E71D751D790013C4E9 /* 13.png */; };
+		F2DA04ED1D751D790013C4E9 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DA04E81D751D790013C4E9 /* 14.png */; };
+		F2DA04EE1D751D790013C4E9 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DA04E91D751D790013C4E9 /* 15.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2D2C73A1D7411D300C0B509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D2C7181D7411D300C0B509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D2C71F1D7411D300C0B509;
+			remoteInfo = EatDoudou;
+		};
+		F2D2C7451D7411D300C0B509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D2C7181D7411D300C0B509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D2C71F1D7411D300C0B509;
+			remoteInfo = EatDoudou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2D2C7201D7411D300C0B509 /* EatDoudou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatDoudou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D2C7241D7411D300C0B509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2D2C7261D7411D300C0B509 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2D2C7271D7411D300C0B509 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2D2C7291D7411D300C0B509 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2D2C72A1D7411D300C0B509 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2D2C72D1D7411D300C0B509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2D2C72F1D7411D300C0B509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2D2C7321D7411D300C0B509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2D2C7341D7411D300C0B509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D2C7391D7411D300C0B509 /* EatDoudouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatDoudouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D2C73D1D7411D300C0B509 /* EatDoudouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatDoudouTests.m; sourceTree = "<group>"; };
+		F2D2C73F1D7411D300C0B509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D2C7441D7411D300C0B509 /* EatDoudouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatDoudouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D2C7481D7411D300C0B509 /* EatDoudouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatDoudouUITests.m; sourceTree = "<group>"; };
+		F2D2C74A1D7411D300C0B509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D2C7561D742BEB00C0B509 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = ../up.png; sourceTree = "<group>"; };
+		F2D2C7571D742BEB00C0B509 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left.png; path = ../left.png; sourceTree = "<group>"; };
+		F2D2C7581D742BEB00C0B509 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = ../down.png; sourceTree = "<group>"; };
+		F2D2C7591D742BEB00C0B509 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right.png; path = ../right.png; sourceTree = "<group>"; };
+		F2DA04E51D751D790013C4E9 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		F2DA04E61D751D790013C4E9 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		F2DA04E71D751D790013C4E9 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		F2DA04E81D751D790013C4E9 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		F2DA04E91D751D790013C4E9 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D2C71D1D7411D300C0B509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D2C7361D7411D300C0B509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D2C7411D7411D300C0B509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2D2C7171D7411D300C0B509 = {
+			isa = PBXGroup;
+			children = (
+				F2D2C7221D7411D300C0B509 /* EatDoudou */,
+				F2D2C73C1D7411D300C0B509 /* EatDoudouTests */,
+				F2D2C7471D7411D300C0B509 /* EatDoudouUITests */,
+				F2D2C7211D7411D300C0B509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D2C7211D7411D300C0B509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2C7201D7411D300C0B509 /* EatDoudou.app */,
+				F2D2C7391D7411D300C0B509 /* EatDoudouTests.xctest */,
+				F2D2C7441D7411D300C0B509 /* EatDoudouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D2C7221D7411D300C0B509 /* EatDoudou */ = {
+			isa = PBXGroup;
+			children = (
+				F2DA04E41D751D790013C4E9 /* pic */,
+				F2D2C7261D7411D300C0B509 /* AppDelegate.h */,
+				F2D2C7271D7411D300C0B509 /* AppDelegate.m */,
+				F2D2C7291D7411D300C0B509 /* ViewController.h */,
+				F2D2C72A1D7411D300C0B509 /* ViewController.m */,
+				F2D2C72C1D7411D300C0B509 /* Main.storyboard */,
+				F2D2C72F1D7411D300C0B509 /* Assets.xcassets */,
+				F2D2C7311D7411D300C0B509 /* LaunchScreen.storyboard */,
+				F2D2C7341D7411D300C0B509 /* Info.plist */,
+				F2D2C7231D7411D300C0B509 /* Supporting Files */,
+			);
+			path = EatDoudou;
+			sourceTree = "<group>";
+		};
+		F2D2C7231D7411D300C0B509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2C7241D7411D300C0B509 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D2C73C1D7411D300C0B509 /* EatDoudouTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2C73D1D7411D300C0B509 /* EatDoudouTests.m */,
+				F2D2C73F1D7411D300C0B509 /* Info.plist */,
+			);
+			path = EatDoudouTests;
+			sourceTree = "<group>";
+		};
+		F2D2C7471D7411D300C0B509 /* EatDoudouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2C7481D7411D300C0B509 /* EatDoudouUITests.m */,
+				F2D2C74A1D7411D300C0B509 /* Info.plist */,
+			);
+			path = EatDoudouUITests;
+			sourceTree = "<group>";
+		};
+		F2DA04E41D751D790013C4E9 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				F2DA04E51D751D790013C4E9 /* 11.png */,
+				F2DA04E61D751D790013C4E9 /* 12.png */,
+				F2DA04E71D751D790013C4E9 /* 13.png */,
+				F2DA04E81D751D790013C4E9 /* 14.png */,
+				F2DA04E91D751D790013C4E9 /* 15.png */,
+				F2D2C7581D742BEB00C0B509 /* down.png */,
+				F2D2C7571D742BEB00C0B509 /* left.png */,
+				F2D2C7591D742BEB00C0B509 /* right.png */,
+				F2D2C7561D742BEB00C0B509 /* up.png */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D2C71F1D7411D300C0B509 /* EatDoudou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D2C74D1D7411D300C0B509 /* Build configuration list for PBXNativeTarget "EatDoudou" */;
+			buildPhases = (
+				F2D2C71C1D7411D300C0B509 /* Sources */,
+				F2D2C71D1D7411D300C0B509 /* Frameworks */,
+				F2D2C71E1D7411D300C0B509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EatDoudou;
+			productName = EatDoudou;
+			productReference = F2D2C7201D7411D300C0B509 /* EatDoudou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2D2C7381D7411D300C0B509 /* EatDoudouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D2C7501D7411D300C0B509 /* Build configuration list for PBXNativeTarget "EatDoudouTests" */;
+			buildPhases = (
+				F2D2C7351D7411D300C0B509 /* Sources */,
+				F2D2C7361D7411D300C0B509 /* Frameworks */,
+				F2D2C7371D7411D300C0B509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D2C73B1D7411D300C0B509 /* PBXTargetDependency */,
+			);
+			name = EatDoudouTests;
+			productName = EatDoudouTests;
+			productReference = F2D2C7391D7411D300C0B509 /* EatDoudouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2D2C7431D7411D300C0B509 /* EatDoudouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D2C7531D7411D300C0B509 /* Build configuration list for PBXNativeTarget "EatDoudouUITests" */;
+			buildPhases = (
+				F2D2C7401D7411D300C0B509 /* Sources */,
+				F2D2C7411D7411D300C0B509 /* Frameworks */,
+				F2D2C7421D7411D300C0B509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D2C7461D7411D300C0B509 /* PBXTargetDependency */,
+			);
+			name = EatDoudouUITests;
+			productName = EatDoudouUITests;
+			productReference = F2D2C7441D7411D300C0B509 /* EatDoudouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D2C7181D7411D300C0B509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "马军";
+				TargetAttributes = {
+					F2D2C71F1D7411D300C0B509 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F2D2C7381D7411D300C0B509 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F2D2C71F1D7411D300C0B509;
+					};
+					F2D2C7431D7411D300C0B509 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F2D2C71F1D7411D300C0B509;
+					};
+				};
+			};
+			buildConfigurationList = F2D2C71B1D7411D300C0B509 /* Build configuration list for PBXProject "EatDoudou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D2C7171D7411D300C0B509;
+			productRefGroup = F2D2C7211D7411D300C0B509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D2C71F1D7411D300C0B509 /* EatDoudou */,
+				F2D2C7381D7411D300C0B509 /* EatDoudouTests */,
+				F2D2C7431D7411D300C0B509 /* EatDoudouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D2C71E1D7411D300C0B509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DA04ED1D751D790013C4E9 /* 14.png in Resources */,
+				F2D2C75C1D742BEB00C0B509 /* down.png in Resources */,
+				F2DA04EA1D751D790013C4E9 /* 11.png in Resources */,
+				F2D2C7331D7411D300C0B509 /* LaunchScreen.storyboard in Resources */,
+				F2D2C7301D7411D300C0B509 /* Assets.xcassets in Resources */,
+				F2D2C75B1D742BEB00C0B509 /* left.png in Resources */,
+				F2DA04EC1D751D790013C4E9 /* 13.png in Resources */,
+				F2D2C72E1D7411D300C0B509 /* Main.storyboard in Resources */,
+				F2DA04EB1D751D790013C4E9 /* 12.png in Resources */,
+				F2DA04EE1D751D790013C4E9 /* 15.png in Resources */,
+				F2D2C75A1D742BEB00C0B509 /* up.png in Resources */,
+				F2D2C75D1D742BEB00C0B509 /* right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D2C7371D7411D300C0B509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D2C7421D7411D300C0B509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D2C71C1D7411D300C0B509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D2C72B1D7411D300C0B509 /* ViewController.m in Sources */,
+				F2D2C7281D7411D300C0B509 /* AppDelegate.m in Sources */,
+				F2D2C7251D7411D300C0B509 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D2C7351D7411D300C0B509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D2C73E1D7411D300C0B509 /* EatDoudouTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D2C7401D7411D300C0B509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D2C7491D7411D300C0B509 /* EatDoudouUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2D2C73B1D7411D300C0B509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D2C71F1D7411D300C0B509 /* EatDoudou */;
+			targetProxy = F2D2C73A1D7411D300C0B509 /* PBXContainerItemProxy */;
+		};
+		F2D2C7461D7411D300C0B509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D2C71F1D7411D300C0B509 /* EatDoudou */;
+			targetProxy = F2D2C7451D7411D300C0B509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2D2C72C1D7411D300C0B509 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D2C72D1D7411D300C0B509 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D2C7311D7411D300C0B509 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D2C7321D7411D300C0B509 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D2C74B1D7411D300C0B509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2D2C74C1D7411D300C0B509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D2C74E1D7411D300C0B509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatDoudou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismnetwork.www.EatDoudou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2D2C74F1D7411D300C0B509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatDoudou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismnetwork.www.EatDoudou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2D2C7511D7411D300C0B509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EatDoudouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismnetwork.www.EatDoudouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatDoudou.app/EatDoudou";
+			};
+			name = Debug;
+		};
+		F2D2C7521D7411D300C0B509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EatDoudouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismnetwork.www.EatDoudouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatDoudou.app/EatDoudou";
+			};
+			name = Release;
+		};
+		F2D2C7541D7411D300C0B509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EatDoudouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismnetwork.www.EatDoudouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EatDoudou;
+			};
+			name = Debug;
+		};
+		F2D2C7551D7411D300C0B509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EatDoudouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismnetwork.www.EatDoudouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EatDoudou;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D2C71B1D7411D300C0B509 /* Build configuration list for PBXProject "EatDoudou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D2C74B1D7411D300C0B509 /* Debug */,
+				F2D2C74C1D7411D300C0B509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D2C74D1D7411D300C0B509 /* Build configuration list for PBXNativeTarget "EatDoudou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D2C74E1D7411D300C0B509 /* Debug */,
+				F2D2C74F1D7411D300C0B509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D2C7501D7411D300C0B509 /* Build configuration list for PBXNativeTarget "EatDoudouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D2C7511D7411D300C0B509 /* Debug */,
+				F2D2C7521D7411D300C0B509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D2C7531D7411D300C0B509 /* Build configuration list for PBXNativeTarget "EatDoudouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D2C7541D7411D300C0B509 /* Debug */,
+				F2D2C7551D7411D300C0B509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D2C7181D7411D300C0B509 /* Project object */;
+}
